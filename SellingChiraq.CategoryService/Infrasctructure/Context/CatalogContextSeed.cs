@@ -1,7 +1,9 @@
-﻿using Polly;
-using SellingChiraq.CategoryService.Core.Domain;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using System.IO.Compression;
+using Polly;
+
+using SellingChiraq.CategoryService.Core.Domain;
+
 
 namespace SellingChiraq.CategoryService.Infrasctructure.Context;
 public class CatalogContextSeed
