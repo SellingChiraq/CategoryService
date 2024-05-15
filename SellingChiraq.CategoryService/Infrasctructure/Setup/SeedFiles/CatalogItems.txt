@@ -1,0 +1,6 @@
+﻿namespace SellingChiraq.CategoryService.Infrasctructure.Setup.SeedFiles
+{
+    public class BrandsTextFile
+    {
+    }
+}
