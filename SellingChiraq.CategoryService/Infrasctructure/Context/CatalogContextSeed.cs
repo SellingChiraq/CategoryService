@@ -8,7 +8,7 @@ using SellingChiraq.CategoryService.Core.Domain;
 namespace SellingChiraq.CategoryService.Infrasctructure.Context;
 public class CatalogContextSeed
 {
-    public async Task SeedaAsync(CatalogContext context, IWebHostEnvironment env, ILogger<CatalogContextSeed> logger)
+    public async Task SeedAsync(CatalogContext context, IWebHostEnvironment env, ILogger<CatalogContextSeed> logger)
     {
         var policy = Policy.Handle<SqlException>().
             WaitAndRetryAsync(
